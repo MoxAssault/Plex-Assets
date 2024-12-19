@@ -1,0 +1,280 @@
+external_templates:
+    - file: config/ymls/_Templates.yml
+
+collections:
+    #############################################
+    ###           BY UNIVERSES   [.C1]        ###
+    #############################################
+
+    ##################  [ # ]  ##################
+
+    ##################  [ A ]  ##################
+    After:
+        template: { name: Coll, pre: .C1, list_url: after }
+    Alien Universe:
+        template: { name: Coll, pre: .C1, list_url: alien }
+    Avatar:
+        template: { name: Coll, pre: .C1, list_url: avatar }
+    ##################  [ B ]  ##################
+    Back to the Future:
+        template: { name: Coll, pre: .C1, list_url: back-to-the-future }
+    Bourne:
+        template: { name: Coll, pre: .C1, list_url: bourne }
+    ##################  [ C ]  ##################
+    Candyman:
+        template: { name: Coll, pre: .C1, list_url: candyman }
+    Child's Play:
+        template: { name: Coll, pre: .C1, list_url: childs-play }
+    Children of the Corn:
+        template: { name: Coll, pre: .C1, list_url: children-of-the-corn }
+    Chronicles of Narnia:
+        template: { name: Coll, pre: .C1, list_url: chronicles-of-narnia }
+    Chronicles of Riddick:
+        template: { name: Coll, pre: .C1, list_url: riddick }
+    Cloververse:
+        template: { name: Coll, pre: .C1, list_url: cloverfield }
+    Conjuring Universe:
+        template: { name: Coll, pre: .C1, list_url: conjuring-universe }
+    Cornetto Trilogy:
+        template: { name: Coll, pre: .C1, list_url: cornetto-trilogy }
+    Critters:
+        template: { name: Coll, pre: .C1, list_url: critters }
+    Crow:
+        template: { name: Coll, pre: .C1, list_url: crow }
+    Cube:
+        template: { name: Coll, pre: .C1, list_url: cube }
+    ##################  [ D ]  ##################
+    DC (Elseworlds):
+        template: { name: Coll, pre: .C1, list_url: dc-legacy }
+    DCEU:
+        template: { name: Coll, pre: .C1, list_url: dceu }
+    Death Race:
+        template: { name: Coll, pre: .C1, list_url: death-race }
+    Die Hard:
+        template: { name: Coll, pre: .C1, list_url: die-hard }
+    Dirty Harry:
+        template: { name: Coll, pre: .C1, list_url: dirty-harry }
+    Divergent:
+        template: { name: Coll, pre: .C1, list_url: divergent }
+    ##################  [ E ]  ##################
+    Eastrail 177 Universe:
+        template: { name: Coll, pre: .C1, list_url: eastrail-177 }
+    Elm Street Universe:
+        template: { name: Coll, pre: .C1, list_url: nightmare-on-elm-street }
+    Ernest P. Worrell:
+        template: { name: Coll, pre: .C1, list_url: ernest }
+    Evil Dead:
+        template: { name: Coll, pre: .C1, list_url: evil-dead }
+    Exorcist:
+        template: { name: Coll, pre: .C1, list_url: exorcist }
+    Expendables:
+        template: { name: Coll, pre: .C1, list_url: expendables }
+    ##################  [ F ]  ##################
+    Fallen:
+        template: { name: Coll, pre: .C1, list_url: fallen }
+    Fast & Furious Saga:
+        template: { name: Coll, pre: .C1, list_url: fast-saga }
+    Fifty Shades:
+        template: { name: Coll, pre: .C1, list_url: fifty-shades }
+    Friday:
+        template: { name: Coll, pre: .C1, list_url: friday }
+    Friday the 13th:
+        template: { name: Coll, pre: .C1, list_url: friday-the-13th }
+    From Dusk Till Dawn:
+        template: { name: Coll, pre: .C1, list_url: fdtd }
+    ##################  [ G ]  ##################
+    Ghostbusters:
+        template: { name: Coll, pre: .C1, list_url: ghostbusters }
+    Godfather Trilogy:
+        template: { name: Coll, pre: .C1, list_url: godfather-trilogy }
+    Grudge Universe:
+        template: { name: Coll, pre: .C1, list_url: grudge }
+    ##################  [ H ]  ##################
+    Halloween Universe:
+        template: { name: Coll, pre: .C1, list_url: halloween }
+    Hannibal Lecter:
+        template: { name: Coll, pre: .C1, list_url: hannibal }
+    Hellraiser:
+        template: { name: Coll, pre: .C1, list_url: hellraiser }
+    Highlander:
+        template: { name: Coll, pre: .C1, list_url: highlander }
+    Hills Have Eyes:
+        template: { name: Coll, pre: .C1, list_url: hills-have-eyes }
+    Home Alone Universe:
+        template: { name: Coll, pre: .C1, list_url: home-alone }
+    Hotel Transylvania:
+        template: { name: Coll, pre: .C1, list_url: hotel-transylvania }
+    House:
+        template: { name: Coll, pre: .C1, list_url: house }
+    Hunger Games:
+        template: { name: Coll, pre: .C1, list_url: hunger-games }
+    ##################  [ I ]  ##################
+    I Spit on Your Grave Universe:
+        template: { name: Coll, pre: .C1, list_url: i-spit-on-your-grave }
+    Ice Age:
+        template: { name: Coll, pre: .C1, list_url: ice-age }
+    Indiana Jones:
+        template: { name: Coll, pre: .C1, list_url: indiana-jones }
+    Insidious:
+        template: { name: Coll, pre: .C1, list_url: insidious }
+    ##################  [ J ]  ##################
+    Jack Ryan Universe:
+        template: { name: Coll, pre: .C1, list_url: jack-ryan }
+    James Bond Universe:
+        template: { name: Coll, pre: .C1, list_url: james-bond }
+    Jaws:
+        template: { name: Coll, pre: .C1, list_url: jaws }
+    Jeepers Creepers:
+        template: { name: Coll, pre: .C1, list_url: jeepers-creepers }
+    John Wick:
+        template: { name: Coll, pre: .C1, list_url: john-wick }
+    Jumanji Universe:
+        template: { name: Coll, pre: .C1, list_url: jumanji-universe }
+    Jurassic Universe:
+        template: { name: Coll, pre: .C1, list_url: jurassic-park }
+    ##################  [ K ]  ##################
+    Karate Kid:
+        template: { name: Coll, pre: .C1, list_url: karate-kid }
+    Kingsman:
+        template: { name: Coll, pre: .C1, list_url: kingsman }
+    ##################  [ L ]  ##################
+    Lethal Weapon:
+        template: { name: Coll, pre: .C1, list_url: lethal-weapon }
+    Living Dead Universe:
+        template: { name: Coll, pre: .C1, list_url: living-dead }
+    ##################  [ M ]  ##################
+    Mad Max Universe:
+        template: { name: Coll, pre: .C1, list_url: mad-max }
+    Marvel Cinematic Universe:
+        template: { name: Coll, pre: .C1, list_url: mcu-complete }
+    MCU (Phase 1):
+        template: { name: Coll, pre: .C1, list_url: mcu-phase-1 }
+    MCU (Phase 2):
+        template: { name: Coll, pre: .C1, list_url: mcu-phase-2 }
+    MCU (Phase 3):
+        template: { name: Coll, pre: .C1, list_url: mcu-phase-3 }
+    MCU (Phase 4):
+        template: { name: Coll, pre: .C1, list_url: mcu-phase-4 }
+    MCU (Phase 5):
+        template: { name: Coll, pre: .C1, list_url: mcu-phase-5 }
+    MCU (Phase 6):
+        template: { name: Coll, pre: .C1, list_url: mcu-phase-6 }
+    Marvel (Legacy):
+        template: { name: Coll, pre: .C1, list_url: marvel-legacy }
+    Matrix:
+        template: { name: Coll, pre: .C1, list_url: matrix }
+    Maze Runner Trilogy:
+        template: { name: Coll, pre: .C1, list_url: maze-runner }
+    Men in Black:
+        template: { name: Coll, pre: .C1, list_url: men-in-black }
+    Middle Earth Universe:
+        template: { name: Coll, pre: .C1, list_url: lotr }
+    Mission Impossible:
+        template: { name: Coll, pre: .C1, list_url: mission-impossible }
+    Mummy:
+        template: { name: Coll, pre: .C1, list_url: mummy }
+    ##################  [ N ]  ##################
+    Night at the Museum:
+        template: { name: Coll, pre: .C1, list_url: night-at-the-museum }
+    ##################  [ O ]  ##################
+    Ocean’s Universe:
+        template: { name: Coll, pre: .C1, list_url: oceans }
+    Omen:
+        template: { name: Coll, pre: .C1, list_url: omen }
+    ##################  [ P ]  ##################
+    Paranormal Activity:
+        template: { name: Coll, pre: .C1, list_url: paranormal-activity }
+    Phantasm:
+        template: { name: Coll, pre: .C1, list_url: phantasm }
+    Pirates of the Caribbean:
+        template: { name: Coll, pre: .C1, list_url: potc }
+    Pitch Perfect:
+        template: { name: Coll, pre: .C1, list_url: pitch-perfect }
+    Planet of the Apes Universe:
+        template: { name: Coll, pre: .C1, list_url: planet-of-the-apes }
+    Police Academy:
+        template: { name: Coll, pre: .C1, list_url: police-academy }
+    Poltergeist:
+        template: { name: Coll, pre: .C1, list_url: poltergeist }
+    Predator Universe:
+        template: { name: Coll, pre: .C1, list_url: predator }
+    Prophecy:
+        template: { name: Coll, pre: .C1, list_url: prophecy }
+    Psycho:
+        template: { name: Coll, pre: .C1, list_url: norman-bates }
+    Puppet Master:
+        template: { name: Coll, pre: .C1, list_url: puppet-master }
+    Purge:
+        template: { name: Coll, pre: .C1, list_url: the-purge }
+    ##################  [ Q ]  ##################
+
+    ##################  [ R ]  ##################
+    Rambo:
+        template: { name: Coll, pre: .C1, list_url: rambo }
+    Resident Evil Universe:
+        template: { name: Coll, pre: .C1, list_url: resident-evil }
+    Ring Universe:
+        template: { name: Coll, pre: .C1, list_url: ring }
+    Robert Langdon:
+        template: { name: Coll, pre: .C1, list_url: robert-langdon }
+    Robocop:
+        template: { name: Coll, pre: .C1, list_url: robocop }
+    Rocky Universe:
+        template: { name: Coll, pre: .C1, list_url: rocky }
+    Romero Universe:
+        template: { name: Coll, pre: .C1, list_url: romero-universe }
+    Rush Hour:
+        template: { name: Coll, pre: .C1, list_url: rush-hour }
+    ##################  [ S ]  ##################
+    Saw:
+        template: { name: Coll, pre: .C1, list_url: saw }
+    Scary Movie:
+        template: { name: Coll, pre: .C1, list_url: scary-movie }
+    Scorpion King:
+        template: { name: Coll, pre: .C1, list_url: scorpion-king }
+    Scream:
+        template: { name: Coll, pre: .C1, list_url: scream }
+    Shrek Universe:
+        template: { name: Coll, pre: .C1, list_url: shrek-universe }
+    Star Trek:
+        template: { name: Coll, pre: .C1, list_url: star-trek }
+    Star Wars:
+        template: { name: Coll, pre: .C1, list_url: star-wars }
+    Stephen King:
+        template: { name: Coll, pre: .C1, list_url: stephen-king-adaptations }
+    ##################  [ T ]  ##################
+    Taken:
+        template: { name: Coll, pre: .C1, list_url: taken }
+    Terminator:
+        template: { name: Coll, pre: .C1, list_url: terminator }
+    Texas Chainsaw Massacre:
+        template: { name: Coll, pre: .C1, list_url: tcm }
+    TMNT Universe:
+        template: { name: Coll, pre: .C1, list_url: tmnt }
+    To All the Boys:
+        template: { name: Coll, pre: .C1, list_url: to-all-the-boys }
+    Transformers:
+        template: { name: Coll, pre: .C1, list_url: transformers }
+    Transporter:
+        template: { name: Coll, pre: .C1, list_url: transporter }
+    Tremors:
+        template: { name: Coll, pre: .C1, list_url: tremors }
+    Twilight Saga:
+        template: { name: Coll, pre: .C1, list_url: twilight-saga }
+    ##################  [ U ]  ##################
+    Underworld:
+        template: { name: Coll, pre: .C1, list_url: underworld }
+    ##################  [ V ]  ##################
+    VHS:
+        template: { name: Coll, pre: .C1, list_url: v-h-s }
+    View Askewniverse:
+        template: { name: Coll, pre: .C1, list_url: view-askewniverse }
+    ##################  [ W ]  ##################
+    Wizarding World Universe:
+        template: { name: Coll, pre: .C1, list_url: wizarding-world }
+    ##################  [ X ]  ##################
+    xXx:
+        template: { name: Coll, pre: .C1, list_url: xxx }
+##################  [ Y ]  ##################
+
+##################  [ Z ]  ##################

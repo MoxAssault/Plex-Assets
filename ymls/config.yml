@@ -1,0 +1,288 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/kometa-team/kometa/nightly/json-schema/config-schema.json
+
+libraries: ### This is called out once within the config.yml file
+    #############################################
+    #####     [ MOVIES ]                    #####
+    #############################################
+    Movies: ## Each library must match the Plex library name
+        report_path: config/missing/_Movies_MISSING.yml
+        ##==========================##
+        ##    [ OPERATIONS ]        ##  Sets the Operations for this specific library.
+        ##==========================##
+        operations:
+            - schedule: weekly(sunday)
+              metadata_backup:
+                  path: config/backups/_BACKUP_Movies.yml
+                  sync_tags: true
+                  add_blank_entries: false
+            - schedule: weekly(monday)
+              assets_for_all: true
+            - schedule: weekly(tuesday)
+              split_duplicates: true
+            - schedule: weekly(thursday)
+              genre_mapper:
+                  Martial Arts: Action
+                  Children: Family
+                  Suspense: Thriller
+                  Music: Musical
+                  Reality:
+                  Indie:
+                  TV Movie:
+            - schedule: weekly(wednesday|saturday)
+              delete_collections:
+                  configured: false
+                  managed: false
+
+        ##==========================##
+        ##    [ METADATA ]          ##  Used to pull created Metadata YAML files for this library.
+        ##==========================##
+        metadata_files:
+            - file: config/ymls_meta/movies_meta.yml
+
+        ##==========================##
+        ##    [ COLLECTIONS ]       ##  Used to pull created Collection YAML files for this library.
+        ##==========================##
+        collection_files:
+            ## [CUSTOM SEPARATORS] ### Custom separators to go between sections.
+            - file: config/ymls/_Separators.yml
+              schedule: weekly(sunday|wednesday)
+
+            ## [AWARD COLLECTIONS] ### Section separator for Award Collections.
+            - file: config/ymls/_Awards.yml
+              schedule: weekly(monday|thursday)
+
+            ## [CHART COLLECTIONS] ### Section separator for Chart Collections.
+            - file: config/ymls/_Charts.yml
+              schedule: weekly(tuesday|friday)
+
+            ## [UNIVERSE COLLECTIONS] ### Section separator for Universe Collections.
+            - file: config/ymls/_Collections.yml
+              schedule: weekly(wednesday|saturday)
+
+            ## [ACTOR COLLECTIONS] ### Section separator for Actor Collections.
+            - file: config/ymls/_Actors.yml
+              schedule: weekly(thursday|sunday)
+
+            ## [DIRECTOR COLLECTIONS] ### Section separator for Director Collections.
+            #- file: config/ymls/_Directors.yml
+            #schedule: weekly(friday|monday)
+
+        ##==========================##
+        ##    [ OVERLAYS ]          ##  Used to pull created Overlay YAML files for this library.
+        ##==========================##
+        #overlay_path:
+        #    - remove_overlays: true ## [true][false] = Remove all current overlays from this specific library
+        #    - file: config/overlays.yml
+
+        ##==========================##
+        ##    [ LIBRARY SETTINGS ]  ##  Overrides global settings for this specific library.
+        ##==========================##
+        template_variables:
+            collection_mode: hide # hide the collections within the "library" tab in Plex.
+        #radarr:
+        #    root_folder_path: G:\
+
+    #############################################
+    #####     [ TELEVISION ]                #####
+    #############################################
+    Television:
+        report_path: config/missing/_MISSING_Television.yml
+        ##==========================##
+        ##    [ OPERATIONS ]        ##
+        ##==========================##
+        operations:
+            - schedule: weekly(sunday)
+              metadata_backup:
+                  path: config/backups/_BACKUP_Television.yml
+                  sync_tags: true
+                  add_blank_entries: false
+            - schedule: weekly(monday)
+              assets_for_all: true
+            - schedule: weekly(tuesday)
+              split_duplicates: true
+            - schedule: weekly(wednesday)
+              genre_mapper:
+                  Action/Adventure: Action
+                  Children: Family
+                  Suspense: Thriller
+                  Talk: Talk Show
+                  War & Politics: War
+                  Music:
+                  Reality:
+                  Indie:
+                  Food:
+                  Mini-Series:
+                  Game Show:
+            - schedule: weekly(saturday)
+              delete_collections:
+                  configured: false
+
+        ##==========================##
+        ##    [ METADATA ]          ##
+        ##==========================##
+        ##metadata_files:
+
+        ##==========================##
+        ##    [ COLLECTIONS ]       ##  Used to pull created Collection YAML files for this library.
+        ##==========================##
+        ## collection_files:
+
+        ##==========================##
+        ##    [ OVERLAYS ]          ##  Used to pull created Overlay YAML files for this library.
+        ##==========================##
+        #overlay_path:
+
+        ##==========================##
+        ##    [ LIBRARY SETTINGS ]  ##  Overrides global settings for this specific library.
+        ##==========================##
+        ##sonarr:
+        ##    root_folder_path: H:\
+
+#############################################
+#####         [ GLOBAL SETTINGS ]       #####
+#############################################
+settings: #### DEFAULT SERVER SETTINGS
+    run_order:
+        - operations
+        - metadata
+        - collections
+        - overlays
+    cache: true
+    cache_expiration: 30
+    asset_directory: config/assets
+    asset_folders: true
+    asset_depth: 4
+    create_asset_folders: true
+    prioritize_assets: true
+    dimensional_asset_rename: true
+    download_url_assets: false
+    show_missing_season_assets: false
+    show_missing_episode_assets: false
+    show_asset_not_needed: true
+    sync_mode: append
+    default_collection_order: release
+    minimum_items: 1
+    delete_below_minimum: false
+    delete_not_scheduled: false
+    run_again_delay: 2
+    missing_only_released: true
+    show_unmanaged: true
+    show_unconfigured: false
+    show_filtered: false
+    show_options: false
+    show_missing: true
+    only_filter_missing: false
+    show_missing_assets: false
+    save_report: true
+    ##report_path:
+    tvdb_language: eng
+    ignore_ids:
+    ignore_imdb_ids:
+    item_refresh_delay: 0
+    playlist_sync_to_user: all
+    playlist_exclude_users: false
+    playlist_report: false
+    custom_repo:
+    overlay_artwork_filetype: png
+    overlay_artwork_quality:
+    verify_ssl: true
+    check_nightly: false
+
+#############################################
+#####         [ SERVER CONFIGS ]        #####
+#############################################
+plex:
+    url: http://192.168.1.156:32400
+    token: Gsf3VAQFrH3shzyKUBPL
+    timeout: 60
+    db_cache: 4096
+    clean_bundles: true
+    empty_trash: true
+    optimize: false
+    verify_ssl:
+
+tmdb:
+    apikey: a73b6a06844b882cda67824a4a90848e
+    language: en
+    region: US
+    cache_expiration: 60
+
+tautulli:
+    url: http://192.168.1.156:8181
+    apikey: jLnWYRdBnPYwfSPRoU-lj2hOTTrSnIKK
+
+radarr:
+    url: http://192.168.1.156:7878/
+    token: 79527f544e51429bb0bcee8fc47c05c0
+    add_missing: false
+    add_existing: false
+    upgrade_existing: false
+    monitor_existing: false
+    ignore_cache:
+    root_folder_path: G:\
+    monitor: true
+    availability: released
+    quality_profile: HD-720p
+    tag:
+    search: false
+    radarr_path:
+    plex_path:
+##
+##radarr: ## Can be individually specified per library as well
+#    url: URL_OR_LOCALHOST             Required
+#    token: TOKEN_CODE                 Required
+#    add_missing: (true|false)         ## Optional
+#    add_existing: (true|false)        ## Optional
+#    upgrade_existing: (true|false)    ## Optional
+#    monitor_existing: (true|false)    ## Optional
+#    ignore_cache: (true|false)        ## Optional
+#    root_folder_path: G:\             Required
+#    monitor: (true|false)             ## Optional
+#    availability: released            Required
+#    quality_profile: HD-720p          Required
+#    tag:                              ## Optional
+#    search: (true|false)              ## Optional
+#    radarr_path:                      ## Optional
+#    plex_path:                        ## Optional
+
+##sonarr:                                         ## Can be individually specified per library as well
+##  url: http://192.168.1.156:8989
+##  token: 25ae0f39765748428cb742d2e8abf208
+##  add_missing: false
+##  add_existing: false
+##  root_folder_path: H:\
+##  monitor: all
+##  quality_profile: HD-1080p
+##  language_profile: English
+##  series_type: standard
+##  season_folder: true
+##  tag:
+##  search: false
+##  cutoff_search: false
+##  sonarr_path:
+##  plex_path:
+##  upgrade_existing: false
+
+##notifiarr:
+##  apikey: ####################################
+
+##webhooks:
+##    error:
+##    version:
+##    run_start:
+##    run_end:
+##    changes:
+##    delete:
+
+##trakt:
+##  client_id: ################################################################
+##  client_secret: ################################################################
+##  pin:
+##  authorization:
+########everything below is autofilled by the script
+##    access_token:
+##    token_type:
+##    expires_in:
+##    refresh_token:
+##    scope: public
+##    created_at:

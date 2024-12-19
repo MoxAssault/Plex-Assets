@@ -1,0 +1,35 @@
+external_templates:
+    - file: config/ymls/_Templates.yml
+
+collections:
+    #############################################
+    ###              SEPARATORS               ###
+    #############################################
+    ########## Award Templates [.A#]
+    Awards:
+        template: { name: Generic, pre: .A1, color: amethyst }
+        summary: Collections for some of the many award ceremonies.
+
+    Charts:
+        template: { name: Generic, pre: .B1, color: blue }
+        summary: Collections for different 'CHARTS' of films, like "Best Horror" films.
+
+    Universes:
+        template: { name: Generic, pre: .C1, color: red }
+        summary: Collections for film franchises and universes.
+
+    Studios:
+        template: { name: Generic, pre: .D1, color: forest }
+        summary: Collections for some of our favorite film studios.
+
+    Actors:
+        template: { name: Generic, pre: .E1, color: orig }
+        summary: Collections for some of the best and largest actors or actresses.
+
+    Directors:
+        template: { name: Generic, pre: .E2, color: gold }
+        summary: Collections for some of the best and largest dirctors.
+
+    Streaming:
+        template: { name: Generic, pre: .F1, color: ocean }
+        summary: Collections of acquired films available on Streaming Services.

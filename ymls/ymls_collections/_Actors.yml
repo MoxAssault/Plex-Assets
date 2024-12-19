@@ -1,0 +1,234 @@
+external_templates:
+    - file: config/ymls/_Templates.yml
+
+collections:
+    #############################################
+    ###           BY ACTORS   [.E1]           ###
+    #############################################
+
+    ##################  [ A ]  ##################
+    Aniston, Jennifer:
+        template: { name: Actor, pre: .E1, tmdb: 4491 }
+    ##################  [ B ]  ##################
+    Baldwin, Alec:
+        template: { name: Actor, pre: .E1, tmdb: 7447 }
+    Blunt, Emily:
+        template: { name: Actor, pre: .E1, tmdb: 5081 }
+    Brooks, Mel:
+        template: { name: Actor, pre: .E1, tmdb: 14639 }
+    Bullock, Sandra:
+        template: { name: Actor, pre: .E1, tmdb: 18277 }
+    Butler, Gerard:
+        template: { name: Actor, pre: .E1, tmdb: 17276 }
+    ##################  [ C ]  ##################
+    Cage, Nicolas:
+        template: { name: Actor, pre: .E1, tmdb: 2963 }
+    Carrey, Jim:
+        template: { name: Actor, pre: .E1, tmdb: 206 }
+    Chan, Jackie:
+        template: { name: Actor, pre: .E1, tmdb: 18897 }
+    Connery, Sean:
+        template: { name: Actor, pre: .E1, tmdb: 738 }
+    Costner, Kevin:
+        template: { name: Actor, pre: .E1, tmdb: 1269 }
+    Cruise, Tom:
+        template: { name: Actor, pre: .E1, tmdb: 500 }
+    Curry, Tim:
+        template: { name: Actor, pre: .E1, tmdb: 13472 }
+    Curtis, Jamie Lee:
+        template: { name: Actor, pre: .E1, tmdb: 8944 }
+    ##################  [ D ]  ##################
+    D'Onofrio, Vincent:
+        template: { name: Actor, pre: .E1, tmdb: 7132 }
+    Dafoe, Willem:
+        template: { name: Actor, pre: .E1, tmdb: 5293 }
+    Damon, Matt:
+        template: { name: Actor, pre: .E1, tmdb: 1892 }
+    Day-Lewis, Daniel:
+        template: { name: Actor, pre: .E1, tmdb: 11856 }
+    de Armas, Ana:
+        template: { name: Actor, pre: .E1, tmdb: 224513 }
+    De Niro, Robert:
+        template: { name: Actor, pre: .E1, tmdb: 380 }
+    Deutch, Zoey:
+        template: { name: Actor, pre: .E1, tmdb: 1059597 }
+    DiCaprio, Leonardo:
+        template: { name: Actor, pre: .E1, tmdb: 6193 }
+    Dinklage, Peter:
+        template: { name: Actor, pre: .E1, tmdb: 22970 }
+    Downey Jr., Robert:
+        template: { name: Actor, pre: .E1, tmdb: 3223 }
+    ##################  [ E ]  ##################
+    Eastwood, Clint:
+        template: { name: Actor, pre: .E1, tmdb: 190 }
+    Evans, Chris:
+        template: { name: Actor, pre: .E1, tmdb: 16828 }
+    ##################  [ F ]  ##################
+    Fillion, Nathan:
+        template: { name: Actor, pre: .E1, tmdb: 51797 }
+    Fishburne, Laurence:
+        template: { name: Actor, pre: .E1, tmdb: 2975 }
+    Ford, Harrison:
+        template: { name: Actor, pre: .E1, tmdb: 3 }
+    Freeman, Morgan:
+        template: { name: Actor, pre: .E1, tmdb: 192 }
+    ##################  [ G ]  ##################
+    Gere, Richard:
+        template: { name: Actor, pre: .E1, tmdb: 1205 }
+    Gibson, Mel:
+        template: { name: Actor, pre: .E1, tmdb: 2461 }
+    Goldblum, Jeff:
+        template: { name: Actor, pre: .E1, tmdb: 4785 }
+    ##################  [ H ]  ##################
+    Hamill, Mark:
+        template: { name: Actor, pre: .E1, tmdb: 2 }
+    Hanks, Tom:
+        template: { name: Actor, pre: .E1, tmdb: 31 }
+    Hardy, Tom:
+        template: { name: Actor, pre: .E1, tmdb: 2524 }
+    Harris, Ed:
+        template: { name: Actor, pre: .E1, tmdb: 228 }
+    Hathaway, Anne:
+        template: { name: Actor, pre: .E1, tmdb: 1813 }
+    Hiddleston, Tom:
+        template: { name: Actor, pre: .E1, tmdb: 91606 }
+    Hoffman, Dustin:
+        template: { name: Actor, pre: .E1, tmdb: 4483 }
+    Hoffman, Philip Seymour:
+        template: { name: Actor, pre: .E1, tmdb: 1233 }
+    Hopkins, Anthony:
+        template: { name: Actor, pre: .E1, tmdb: 4173 }
+    ##################  [ I ]  ##################
+
+    ##################  [ J ]  ##################
+    Jackson, Samuel L.:
+        template: { name: Actor, pre: .E1, tmdb: 2231 }
+    Johansson, Scarlett:
+        template: { name: Actor, pre: .E1, tmdb: 1245 }
+    Johnson, Dwayne:
+        template: { name: Actor, pre: .E1, tmdb: 18918 }
+    Jones, James Earl:
+        template: { name: Actor, pre: .E1, tmdb: 15152 }
+    Jones, Tommy Lee:
+        template: { name: Actor, pre: .E1, tmdb: 2176 }
+    ##################  [ K ]  ##################
+    Keaton, Michael:
+        template: { name: Actor, pre: .E1, tmdb: 2232 }
+    Kendrick, Anna:
+        template: { name: Actor, pre: .E1, tmdb: 84223 }
+    Kilmer, Val:
+        template: { name: Actor, pre: .E1, tmdb: 5576 }
+    ##################  [ L ]  ##################
+    Lawrence, Jennifer:
+        template: { name: Actor, pre: .E1, tmdb: 72129 }
+    Lloyd, Christopher:
+        template: { name: Actor, pre: .E1, tmdb: 1062 }
+    ##################  [ M ]  ##################
+    #Morgan, Jeffrey Dean:
+
+    Murphy, Cillian:
+        template: { name: Actor, pre: .E1, tmdb: 2037 }
+    Murphy, Eddie:
+        template: { name: Actor, pre: .E1, tmdb: 776 }
+    Murray, Bill:
+        template: { name: Actor, pre: .E1, tmdb: 1532 }
+    ##################  [ N ]  ##################
+    Neeson, Liam:
+        template: { name: Actor, pre: .E1, tmdb: 3896 }
+    Nicholson, Jack:
+        template: { name: Actor, pre: .E1, tmdb: 514 }
+    ##################  [ O ]  ##################
+    Oldman, Gary:
+        template: { name: Actor, pre: .E1, tmdb: 64 }
+    Ortega, Jenna:
+        template: { name: Actor, pre: .E1, tmdb: 974169 }
+    ##################  [ P ]  ##################
+    Pacino, Al:
+        template: { name: Actor, pre: .E1, tmdb: 1158 }
+    Pascal, Pedro:
+        template: { name: Actor, pre: .E1, tmdb: 1253360 }
+    Pegg, Simon:
+        template: { name: Actor, pre: .E1, tmdb: 11108 }
+    Pitt, Brad:
+        template: { name: Actor, pre: .E1, tmdb: 287 }
+    Pratt, Chris:
+        template: { name: Actor, pre: .E1, tmdb: 73457 }
+    ##################  [ Q ]  ##################
+
+    ##################  [ R ]  ##################
+    Reddick, Lance:
+        template: { name: Actor, pre: .E1, tmdb: 129101 }
+    Reeves, Keanu:
+        template: { name: Actor, pre: .E1, tmdb: 6384 }
+    Renner, Jeremy:
+        template: { name: Actor, pre: .E1, tmdb: 17604 }
+    Reynolds, Ryan:
+        template: { name: Actor, pre: .E1, tmdb: 10859 }
+    Roberts, Julia:
+        template: { name: Actor, pre: .E1, tmdb: 1204 }
+    Rudd, Paul:
+        template: { name: Actor, pre: .E1, tmdb: 22226 }
+    Russell, Kurt:
+        template: { name: Actor, pre: .E1, tmdb: 6856 }
+    ##################  [ S ]  ##################
+    Sandler, Adam:
+        template: { name: Actor, pre: .E1, tmdb: 19292 }
+    Schwarzenegger, Arnold:
+        template: { name: Actor, pre: .E1, tmdb: 1100 }
+    Smith, Will:
+        template: { name: Actor, pre: .E1, tmdb: 2888 }
+    Snipes, Wesley:
+        template: { name: Actor, pre: .E1, tmdb: 10814 }
+    Stallone, Sylvester:
+        template: { name: Actor, pre: .E1, tmdb: 16483 }
+    Stewart, Kristen:
+        template: { name: Actor, pre: .E1, tmdb: 37917 }
+    Stewart, Patrick:
+        template: { name: Actor, pre: .E1, tmdb: 2387 }
+    Sweeney, Sydney:
+        template: { name: Actor, pre: .E1, tmdb: 115440 }
+    ##################  [ T ]  ##################
+    Taylor-Joy, Anya:
+        template: { name: Actor, pre: .E1, tmdb: 1397778 }
+    Travolta, John:
+        template: { name: Actor, pre: .E1, tmdb: 8891 }
+    Tucci, Stanley:
+        template: { name: Actor, pre: .E1, tmdb: 2283 }
+    Tudyk, Alan:
+        template: { name: Actor, pre: .E1, tmdb: 21088 }
+    ##################  [ U ]  ##################
+    Urban, Karl:
+        template: { name: Actor, pre: .E1, tmdb: 1372 }
+    ##################  [ V ]  ##################
+    Van Damme, Jean-Claude:
+        template: { name: Actor, pre: .E1, tmdb: 15111 }
+    ##################  [ W ]  ##################
+    Walken, Christopher:
+        template: { name: Actor, pre: .E1, tmdb: 4690 }
+    Warburton, Patrick:
+        template: { name: Actor, pre: .E1, tmdb: 9657 }
+    Washington, Denzel:
+        template: { name: Actor, pre: .E1, tmdb: 5292 }
+    Watson, Emma:
+        template: { name: Actor, pre: .E1, tmdb: 10990 }
+    Wayne, John:
+        template: { name: Actor, pre: .E1, tmdb: 4165 }
+    Weaver, Sigourney:
+        template: { name: Actor, pre: .E1, tmdb: 10205 }
+    Weaving, Samara:
+        template: { name: Actor, pre: .E1, tmdb: 1372369 }
+    Whitaker, Forest:
+        template: { name: Actor, pre: .E1, tmdb: 2178 }
+    Wilder, Gene:
+        template: { name: Actor, pre: .E1, tmdb: 3460 }
+    Williams, Robin:
+        template: { name: Actor, pre: .E1, tmdb: 2157 }
+    Willis, Bruce:
+        template: { name: Actor, pre: .E1, tmdb: 62 }
+    Witherspoon, Reese:
+        template: { name: Actor, pre: .E1, tmdb: 368 }
+    ##################  [ X ]  ##################
+
+    ##################  [ Y ]  ##################
+
+    ##################  [ Z ]  ##################

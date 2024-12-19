@@ -1,0 +1,9 @@
+overlays:
+    ############################
+    # RT TOP 200  HORROR FILMS #
+    ############################
+    RT Top 200 Horror:
+        overlay: RTCF
+        plex_search:
+            all:
+                collection: RT Top 200 Horror

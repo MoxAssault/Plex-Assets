@@ -1,0 +1,17 @@
+external_templates:
+    - file: config/ymls/_Templates.yml
+
+collections:
+    #############################################
+    ###           BY AWARDS   [.A1]           ###
+    #############################################
+
+    Oscar, Best Picture Winners:
+        template: { name: Chart, pre: .B1 }
+        imdb_search:
+            sort_by: release.asc
+            release.after: 1927-01-01
+            event.winning: oscar_picture
+            cast.not: nm0310980
+        sync_mode: append
+        summary: List of every Best Picture Winner from the Academy Awards.
