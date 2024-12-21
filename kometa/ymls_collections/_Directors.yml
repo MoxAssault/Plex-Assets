@@ -1,7 +1,0 @@
-external_templates:
-    - file: config/ymls/_Templates.yml
-
-collections:
-    #############################################
-    ###           BY DIRCTORS   [.E1]         ###
-    #############################################
